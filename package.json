@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Sung-Wonjin/Software_Engineering_proj/issues"
   },
-  "homepage": "https://github.com/Sung-Wonjin/Software_Engineering_proj#readme"
+  "homepage": "https://github.com/Sung-Wonjin/Software_Engineering_proj#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
 }
