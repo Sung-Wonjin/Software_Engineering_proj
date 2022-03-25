@@ -1,0 +1,19 @@
+{
+  "name": "swproj",
+  "version": "1.0.0",
+  "description": "Software project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sung-Wonjin/Software_Engineering_proj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sung-Wonjin/Software_Engineering_proj/issues"
+  },
+  "homepage": "https://github.com/Sung-Wonjin/Software_Engineering_proj#readme"
+}
