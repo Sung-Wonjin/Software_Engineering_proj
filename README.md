@@ -1,1 +1,1 @@
-TEST FILE 2 for Conflict
+TEST FILE for Conflict
