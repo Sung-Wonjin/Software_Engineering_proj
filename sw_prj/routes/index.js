@@ -7,11 +7,7 @@ const database = require("../database");
 
 
 router.get("/", async (req, res, next) => {
-  const page = parseInt(req.query.page) || 0;
-
-  const products = await database.query("select * from a_product order by created desc, id asc limit ?, 10", [page]);
-  console.log(products);
-  res.send("page" + page);
+  res.render('login');
 });
 
 router.get("/signup", (req, res) => {
@@ -33,14 +29,17 @@ router.post("/signup", async (req, res) => {
   redirect("/");
 });
 
-router.post("login", (req, res) => {
-  console.log("logon");
-  const id = req.body.id;
-  const passwd = req.body.pwd;
-  app.get('/login', function(req, res){
-    res.render('main', {
-    })
-  })
+router.get("/login", (req, res) => {
+
+})
+
+router.post("login", async (req, res) => {
+  console.log("login");
+  const email = req.body.email;
+  const passwd = req.body.password;
+  app.get('login', (req, res) => {
+    res.send();
+  });
 
 });
 
